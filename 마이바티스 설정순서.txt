@@ -1,0 +1,13 @@
+마이 바티스
+1. pom.xml에 추가
+2. src/main/resources 
+     xml 2개 . 하나는 config.xml, mapper.xml
+3. root-context.xml에서 bean 설정
+
+4. dao에서 SqlSession @Autowired <= 자동 생성이라고생각하세요 
+   // 필요에 따라서 두개의 관계를 알아서 생성 + 연결 해준다.
+5. dao 작성
+
+6. 컨트롤러 에서 dao 불러다 씀
+
+7. mapper의 sql 작성
